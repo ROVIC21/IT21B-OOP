@@ -1,0 +1,19 @@
+class MyClass {
+  constructor(name, age) {
+    this.n = name;
+    this.a = age;
+  }
+
+  names() {
+    console.log(`${this.n} is humble!`);
+  }
+
+  age() {
+    console.log(`${this.a} years old!`);
+  }
+}
+
+const a = new MyClass('MAISLIM', 20);
+a.names();
+a.age();
+console.log(a);
